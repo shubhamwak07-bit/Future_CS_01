@@ -1,0 +1,6 @@
+ID,Title,Severity,Status,Target,Observation,Remediation,Validation
+F-01,Missing or incomplete security headers,Medium,Illustrative example,DemoShop (fictional),Example only: validate response headers,Set tested CSP and suitable security headers,Recheck headers and app functionality
+F-02,Cookie security attributes need review,Medium,Illustrative example,DemoShop (fictional),Example only: inspect Set-Cookie attributes,Use Secure HttpOnly and suitable SameSite settings,Verify session behavior and attributes
+F-03,Verbose error messages may disclose implementation details,Medium,Illustrative example,DemoShop (fictional),Example only: review error responses,Use generic user errors and server-side logs,Confirm no stack traces are exposed
+F-04,Publicly visible technology information,Low,Illustrative example,DemoShop (fictional),Example only: review banners and assets,Minimize unnecessary version and development metadata,Review headers HTML and deployed assets
+F-05,No clear security contact or disclosure guidance,Low,Illustrative example,DemoShop (fictional),Example only: check security.txt/contact,Publish a monitored security reporting channel,Verify contact process
